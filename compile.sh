@@ -1,0 +1,1 @@
+ocamlc ast.ml ast_typed.ml parse.ml lex.ml generate.ml main.ml

@@ -1,0 +1,8 @@
+scalefactor = 0.1;
+redcos = (cos(x)+1)/2;
+region1 = square(0.1);
+region2 = scale(0.9):region1;
+region3 = region1-region2;
+color1 = (scale(0.01):redcos,1,1,1);                                
+color2 = translate(0.2,0.1):rotate(1):region3*color1; 
+return color2;

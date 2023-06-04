@@ -1,0 +1,8 @@
+(** @canonical Lammp.Ast *)
+module Ast = Lammp__Ast
+
+(** @canonical Lammp.Lex *)
+module Lex = Lammp__Lex
+
+(** @canonical Lammp.Parse *)
+module Parse = Lammp__Parse
